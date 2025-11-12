@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Services",
+        "url": "/services"
+    },
+    {
+        "title": "Order",
+        "url": "/order"
+    },
+    {
+        "title": "Contact",
+        "url": "/contact"
+    },
+    {
+        "title": "Terms of Use",
+        "url": "/tos"
+    },
+    {
+        "title": "Privacy",
+        "url": "/privacy"
+    },
+    {
+        "title": "Responsible Disclosure",
+        "url": "/rdp"
+    },
+    {
+        "title": "Copyright",
+        "url": "/copyright"
+    },
+    {
+        "title": "About",
+        "url": "/about"
+    },
+    {
+        "title": "Contact",
+        "url": "/contact"
+    }
+]

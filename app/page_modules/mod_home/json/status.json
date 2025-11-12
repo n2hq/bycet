@@ -1,0 +1,20 @@
+[
+    {
+        "img": "/images/Clarifications.png",
+        "topPhrase": "Get your",
+        "noun": "Clarifications",
+        "description": "Get your enquiries answered and clarified in less than 30 minutes."
+    },
+    {
+        "img": "/images/Support.png",
+        "topPhrase": "Legendary",
+        "noun": "Support",
+        "description": "Give us a call at: +2347048048394"
+    },
+    {
+        "img": "/images/Package.png",
+        "topPhrase": "24x7",
+        "noun": "Email Support",
+        "description": "Contact support at: support@durche.com"
+    }
+]

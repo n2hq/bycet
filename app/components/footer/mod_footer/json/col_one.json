@@ -1,0 +1,21 @@
+{
+    "header": "Main",
+    "body": [
+        {
+            "title": "Home",
+            "url": "/"
+        },
+        {
+            "title": "Services",
+            "url": "/services"
+        },
+        {
+            "title": "Industries",
+            "url": "/industries"
+        },
+        {
+            "title": "Consultation",
+            "url": "/consultation"
+        }
+    ]
+}

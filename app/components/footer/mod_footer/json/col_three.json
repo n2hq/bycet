@@ -1,0 +1,21 @@
+{
+    "header": "Privacy",
+    "body": [
+        {
+            "title": "Privacy",
+            "url": "/privacy"
+        },
+        {
+            "title": "Terms of Use",
+            "url": "/terms"
+        },
+        {
+            "title": "Responsible Disclosure",
+            "url": "/responsible_disclosure"
+        },
+        {
+            "title": "Copyright",
+            "url": "/copyright"
+        }
+    ]
+}

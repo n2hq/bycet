@@ -1,0 +1,21 @@
+{
+    "header": "Discover",
+    "body": [
+        {
+            "title": "About us",
+            "url": "/about"
+        },
+        {
+            "title": "Contact us",
+            "url": "/contact"
+        },
+        {
+            "title": "",
+            "url": ""
+        },
+        {
+            "title": "",
+            "url": ""
+        }
+    ]
+}

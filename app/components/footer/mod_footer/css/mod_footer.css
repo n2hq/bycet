@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+.footer-column-wrapper{
+    @apply w-full px-[30px] md:px-[15px] bg-black py-28 text-white
+}
+
+.footer-columns{
+    @apply max-w-[1200px] mx-auto w-full flex flex-col md:flex-row place-content-between gap-y-12 md:gap-y-0 
+}
+
+
+.footer-column-menu-one {
+    @apply block
+}
+
+.footer-column-menu-title {
+    @apply text-[12px] text-white/80 hover:text-white/50 
+}
+
+.footer-column-menu {
+    @apply flex flex-col space-y-2
+}
+
+.footer-column-menu-header {
+    @apply text-[14px] font-bold mb-3.5 
+}
+
+.footer-row{
+    @apply max-w-[1200px] mx-auto w-full mt-8
+}
+
+.footer-rule{
+    @apply border-t border-gray-800
+}
+
+.footer-horizontal-links-wrapper{
+    @apply text-[12px] text-gray-400 flex flex-wrap gap-x-3 leading-6
+}
+
+.footer-horizontal-link{
+    @apply hover:text-white cursor-pointer
+}
+
+.footer-logo{
+    @apply text-xl font-black font-sans
+}

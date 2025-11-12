@@ -1,0 +1,21 @@
+{
+    "header": "Social Media",
+    "body": [
+        {
+            "title": "Twitter",
+            "url": "http://x.com/voysce"
+        },
+        {
+            "title": "Facebook",
+            "url": "http://facebook.com/voysce"
+        },
+        {
+            "title": "Instagram",
+            "url": "http://instagram.com/voy.sce"
+        },
+        {
+            "title": "Youtube",
+            "url": "https://www.youtube.com/@Voysce"
+        }
+    ]
+}

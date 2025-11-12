@@ -1,0 +1,21 @@
+{
+    "header": "Manage & Support",
+    "body": [
+        {
+            "title": "Support: support@voysce.com",
+            "url": "mailto:support@voysce.com"
+        },
+        {
+            "title": "Consultation: info@voysce.com",
+            "url": "mailto:contact@voysce.com"
+        },
+        {
+            "title": "General: info@voysce.com",
+            "url": "/industries"
+        },
+        {
+            "title": "",
+            "url": ""
+        }
+    ]
+}

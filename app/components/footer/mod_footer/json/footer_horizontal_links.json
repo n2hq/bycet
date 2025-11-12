@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Voysce Website",
+        "url": "/"
+    },
+    {
+        "title": "Terms of Use",
+        "url": "/terms"
+    },
+    {
+        "title": "Privacy & Cookie Notice",
+        "url": "/privacy"
+    },
+    {
+        "title": "Responsible Disclosure Policy",
+        "url": "/responsible_disclosure"
+    },
+    {
+        "title": "Copyright",
+        "url": "/copyright"
+    },
+    {
+        "title": "Manage Cookies",
+        "url": "/privacy#cookies"
+    }
+]

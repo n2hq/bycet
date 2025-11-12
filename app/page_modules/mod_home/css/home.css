@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.showcase-section-wrapper{
+    @apply w-full px-[15px] bg-black bg-no-repeat bg-cover
+}
+
+.showcase-section-inner{
+    @apply max-w-[1200px] mx-auto w-full h-[500px] relative text-white flex flex-col place-content-center place-items-start gap-y-8
+}
+
+.showcase-section-image{
+    @apply object-cover w-full h-full
+}
+
+.showcase-main-title{
+    @apply text-3xl font-extralight 
+}

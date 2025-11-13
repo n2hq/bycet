@@ -10,7 +10,7 @@ export NVM_DIR="$HOME/.nvm"
 nvm use 22 2>/dev/null || nvm install 22 && nvm use 22
 
 echo "🔁 Adding remote origin..."
-git remote add origin https://github.com/n2hq/voysce_test.git || git remote set-url origin https://github.com/n2hq/voysce_test.git
+git remote add origin https://github.com/n2hq/veycet_test.git || git remote set-url origin https://github.com/n2hq/veycet_test.git
 
 echo "🌿 Renaming branch to main..."
 git branch -M main

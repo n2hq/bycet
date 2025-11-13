@@ -3,7 +3,7 @@ import React from 'react'
 const FooterLogo = () => {
     return (
         <div className='footer-logo'>
-            Voysce.
+            <b>v</b><span className={`font-extralight`}>eycet</span>.
         </div>
     )
 }

@@ -12,7 +12,7 @@ git branch -M main
 
 
 echo "🔁 Setting remote url to PROD repo..."
-git remote set-url origin https://github.com/n2hq/voysce.git
+git remote set-url origin https://github.com/n2hq/veycet.git
 
 
 echo "🧪 Switching to 'main' branch..."

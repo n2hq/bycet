@@ -1,7 +1,7 @@
 const CopyrightPolicy = () => {
     return (
         <div className="max-w-4xl mx-auto px-4 py-8">
-            <h1 className="text-3xl font-bold text-gray-900 mb-6">Copyright Policy</h1>
+            <h1 className="text-3xl tracking-tighter font-black text-gray-900 mb-6 first-letter:italic">Copyright Policy</h1>
             <p className="text-gray-600 mb-8">Last Updated: {new Date().toLocaleDateString()}</p>
 
             <div className="space-y-8">

@@ -23,7 +23,7 @@ export function loader({ context }: Route.LoaderArgs) {
 }
 
 export default function Contact({ loaderData }: Route.ComponentProps) {
-  const bgImg = `https://unbound.radiantthemes.com/wp-content/uploads/2018/04/Home-Eight-Banner-Background-Image.png?id=3347`
+  const bgImg = `/images/world-banner.jpg`
   const title = `Have a Challenge? Let's Solve It Together.`
   const description = `No matter the size or complexity of your project, our team is ready to provide the digital tools and expertise you need. Start the conversation today.`
 

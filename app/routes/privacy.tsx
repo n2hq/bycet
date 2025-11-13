@@ -17,6 +17,7 @@ import IndustriesShowcaseSection from "~/page_modules/mod_industries/assets/Indu
 import HeroAlt from "~/components/body/HeroAlt";
 import PrivacyInfoSection from "~/page_modules/mod_privacy/assets/PrivacyInfoSection";
 import PrivacySection from "~/page_modules/mod_privacy/assets/PrivacySection";
+import PolicyInfoHeader from "~/components/body/PolicyInfoHeader";
 
 export function meta({ }: Route.MetaArgs) {
     return [
@@ -43,9 +44,13 @@ export default function Privacy({ loaderData }: Route.ComponentProps) {
             /> */}
 
 
+            <PolicyInfoHeader
+                title="Your Privacy, Our Principle."
+                subTitle="Your Privacy is Our Commitment."
+                description={`At Veycet, we build intelligent software with a foundational commitment to data security and privacy. This policy outlines how we protect your information and uphold your trust.`}
+            />
 
 
-            <PrivacyInfoSection />
             <PrivacySection />
             <ContactSection />
         </div>

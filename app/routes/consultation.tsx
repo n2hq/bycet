@@ -24,7 +24,7 @@ export function loader({ context }: Route.LoaderArgs) {
 }
 
 export default function Consultation({ loaderData }: Route.ComponentProps) {
-  const bgImg = `https://unbound.radiantthemes.com/wp-content/uploads/2018/04/banner-five.jpg?id=3113`
+  const bgImg = `/images/consultation-banner.jpg`
   const title = `Global Software & Business solutions that works.`
   const description = `No matter the size or complexity of your business, we offer digital tools, insights and expertise that keep you ahead.`
 

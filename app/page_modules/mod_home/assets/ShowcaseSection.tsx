@@ -5,7 +5,7 @@ import ContactUsButton from '~/components/body/ActionButton'
 import ActionButton from '~/components/body/ActionButton'
 
 const ShowcaseSection = () => {
-    const bgUrl = `https://unbound.radiantthemes.com/wp-content/uploads/2018/04/Home-Eight-Banner-Background-Image.png?id=3347`
+    const bgUrl = `/images/world-banner.jpg`
 
     const [bg, setBg] = useState(bgUrl)
     const [bgCss, setBgCss] = useState(`bg-[url(${bg})]`)

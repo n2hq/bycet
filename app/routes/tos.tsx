@@ -19,6 +19,7 @@ import PrivacyInfoSection from "~/page_modules/mod_privacy/assets/PrivacyInfoSec
 import PrivacySection from "~/page_modules/mod_privacy/assets/PrivacySection";
 import InfoTermsOfUse from "~/page_modules/mod_privacy/assets/InfoTermsOfUse";
 import TOSInfoSection from "~/page_modules/mod_tos/assets/TOSInfoSection";
+import PolicyInfoHeader from "~/components/body/PolicyInfoHeader";
 
 export function meta({ }: Route.MetaArgs) {
     return [
@@ -45,9 +46,13 @@ export default function ToS({ loaderData }: Route.ComponentProps) {
             /> */}
 
 
+            <PolicyInfoHeader
+                title="Clear Guidelines for a Secure Partnership."
+                subTitle="Our Terms of Use."
+                description={`Welcome to Veycet. These terms outline the rules and guidelines for using our website and services, ensuring a secure and productive experience for all our partners and user`}
+            />
 
 
-            <TOSInfoSection />
             <InfoTermsOfUse />
             <ContactSection />
         </div>

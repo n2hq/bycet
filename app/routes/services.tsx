@@ -27,7 +27,7 @@ export function loader({ context }: Route.LoaderArgs) {
 }
 
 export default function Services({ loaderData }: Route.ComponentProps) {
-  const bgImg = `https://unbound.radiantthemes.com/wp-content/uploads/2018/06/business-agency-3-banner.jpg?id=7870`
+  const bgImg = `/images/services-banner.jpg`
   const title = `Scalable Software Solutions for a Competitive Edge`
   const description = `We deliver the digital tools, strategic insights, and expert partnership to transform your operations and drive measurable growth.`
 

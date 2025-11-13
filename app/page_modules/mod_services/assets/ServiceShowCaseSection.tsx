@@ -3,7 +3,7 @@ import { Link } from 'react-router'
 import ActionButton from '~/components/body/ActionButton'
 
 const ServiceShowcaseSection = () => {
-    const bgUrl = `https://unbound.radiantthemes.com/wp-content/uploads/2018/06/business-agency-3-banner.jpg?id=7870`
+    const bgUrl = `/images/services-banner.jpg`
 
     const [bg, setBg] = useState(bgUrl)
     const [bgCss, setBgCss] = useState(`bg-[url(${bg})]`)

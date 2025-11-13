@@ -1,7 +1,7 @@
 const ResponsibleDisclosure = () => {
     return (
         <div className="max-w-4xl mx-auto px-4 py-8">
-            <h1 className="text-3xl font-bold text-gray-900 mb-6">Responsible Disclosure Policy</h1>
+            <h1 className="text-3xl tracking-tighter font-black text-gray-900 mb-6 first-letter:italic">Responsible Disclosure Policy</h1>
             <p className="text-gray-600 mb-8">Last Updated: {new Date().toLocaleDateString()}</p>
 
             <div className="space-y-8">
@@ -97,7 +97,7 @@ const ResponsibleDisclosure = () => {
                 <section className="bg-blue-50 p-6 rounded-lg">
                     <h2 className="text-lg font-semibold text-red-800 mb-3">Thank You</h2>
                     <p className="text-gray-500">
-                        We appreciate your efforts to make Voysce and the internet a safer place. Your
+                        We appreciate your efforts to make Veycet and the internet a safer place. Your
                         expertise and ethical approach help us maintain the highest security standards
                         for our clients and their users.
                     </p>

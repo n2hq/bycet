@@ -19,6 +19,7 @@ import PrivacyInfoSection from "~/page_modules/mod_privacy/assets/PrivacyInfoSec
 import PrivacySection from "~/page_modules/mod_privacy/assets/PrivacySection";
 import ResponsibleDisclosure from "~/page_modules/mod_privacy/assets/ResponsibleDisclosure";
 import RDPInfoSection from "~/page_modules/mod_rdp/assets/RDPInfoSection";
+import PolicyInfoHeader from "~/components/body/PolicyInfoHeader";
 
 export function meta({ }: Route.MetaArgs) {
     return [
@@ -44,10 +45,12 @@ export default function ResponsbileDisclosurePage({ loaderData }: Route.Componen
                 description={description}
             /> */}
 
+            <PolicyInfoHeader
+                title="Partnering to Strengthen Our Defenses."
+                subTitle="Responsible Disclosure Policy"
+                description={`We consider the security of our systems and our clients' data a top priority. We value the role that security researchers play in keeping us secure and welcome the responsible reporting of any potential vulnerabilities.`}
+            />
 
-
-
-            <RDPInfoSection />
             <ResponsibleDisclosure />
             <ContactSection />
         </div>

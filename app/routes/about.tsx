@@ -6,7 +6,7 @@ import AboutUsSection from '~/page_modules/mod_about/assets/AboutUsSection'
 import PageBarSection from '~/page_modules/mod_home/assets/PageBarSection'
 
 const About = () => {
-    const bgImg = `https://unbound.radiantthemes.com/wp-content/uploads/2018/05/demo-eighteen-banner.jpg?id=4910`
+    const bgImg = `/images/about-banner.jpg`
     const title = `Your Challenge, Our Shared Mission.`
     const description = `Bring us your most complex business problems. We partner with you to design and build the intelligent software solutions that turn your challenges into your greatest competitive advantages. Let's start building what's next, together.`
 

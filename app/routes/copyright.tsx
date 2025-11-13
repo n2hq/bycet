@@ -19,6 +19,7 @@ import PrivacyInfoSection from "~/page_modules/mod_privacy/assets/PrivacyInfoSec
 import PrivacySection from "~/page_modules/mod_privacy/assets/PrivacySection";
 import CopyrightPolicy from "~/page_modules/mod_privacy/assets/CopyrightPolicy";
 import CopyrightInfoSection from "~/page_modules/mod_copyright/assets/CopyrightInfoSection";
+import PolicyInfoHeader from "~/components/body/PolicyInfoHeader";
 
 
 export function meta({ }: Route.MetaArgs) {
@@ -45,10 +46,14 @@ export default function Copyright({ loaderData }: Route.ComponentProps) {
                 description={description}
             /> */}
 
+            <PolicyInfoHeader
+                title="Protecting Intellectual Property, Respecting Creativity."
+                subTitle="Copyright Policy"
+                description={`This policy outlines the intellectual property rights for all content associated with Voysce and establishes the procedures for reporting any potential copyright infringement.`}
+            />
 
 
 
-            <CopyrightInfoSection />
             <CopyrightPolicy />
             <ContactSection />
         </div>

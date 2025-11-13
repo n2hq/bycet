@@ -15,7 +15,7 @@ const PrivacyInfoSection = () => {
                     Your Privacy, Our Principle.
                 </div>
                 <div className={`text-sm text-center text-[19px] text-gray-500 md:w-[80%] mx-auto`}>
-                    At Voysce, we build intelligent software with a foundational commitment to data security and privacy. This policy outlines how we protect your information and uphold your trust.
+                    At Veycet, we build intelligent software with a foundational commitment to data security and privacy. This policy outlines how we protect your information and uphold your trust.
                 </div>
 
             </div>

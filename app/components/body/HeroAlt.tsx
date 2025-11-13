@@ -10,7 +10,7 @@ export type HeroAltProps = {
 }
 
 const HeroAlt = ({ pageTitle = "", bgImg, title, description, showContact = false }: HeroAltProps) => {
-    const bgUrl = `https://unbound.radiantthemes.com/wp-content/uploads/2018/06/business-agency-3-banner.jpg?id=7870`
+    const bgUrl = `/images/world-banner.jpg`
 
     const [bg, setBg] = useState(bgImg ?? bgUrl)
     const [bgCss, setBgCss] = useState(`bg-[url(${bg})]`)
@@ -18,7 +18,7 @@ const HeroAlt = ({ pageTitle = "", bgImg, title, description, showContact = fals
     return (
         <div className={`w-full h-[500px] relative`}>
 
-            <div className={`w-full h-full relative`}>
+            <div className={`w-full h-full relative bg-blue-800`}>
 
 
                 <img src={bg} alt=""

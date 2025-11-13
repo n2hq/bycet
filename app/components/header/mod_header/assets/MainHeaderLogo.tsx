@@ -6,7 +6,7 @@ const MainHeaderLogo = () => {
     return (
         <div className='text-[28px] font-sans font-black tracking-tighter flex place-items-center'>
             <Link to={'/'}>
-                <span className='font-light'><b className={`font-bold`}></b>vyget</span>.
+                <span className='font-light'><b className={`font-bold`}>V</b>eycet</span>.
             </Link>
         </div>
     )

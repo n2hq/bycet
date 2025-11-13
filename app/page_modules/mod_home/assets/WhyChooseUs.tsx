@@ -61,7 +61,7 @@ const WhyChooseUs = () => {
                         </div>
 
                         <div className={`text-[17px] font-black`}>
-                            The Dascy Difference: How We Deliver Success
+                            The <span className="font-normal underline">Veycet</span> Difference: How We Deliver Success
                         </div>
 
                         <ul className={`space-y-3`}>

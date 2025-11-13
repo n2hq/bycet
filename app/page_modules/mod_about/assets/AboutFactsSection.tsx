@@ -24,7 +24,7 @@ const AboutFactsSection = () => {
                                     Your Vision, Our Execution: A Partnership from the Start.
                                 </div>
                                 <div className={`text-[35px] leading-10 font-black`}>
-                                    Why Partner with <span className={`font-extralight text-white`}>Voysce</span>?
+                                    Why Partner with <span className={`font-extralight text-white`}>Veycet</span>?
                                 </div>
                                 <div>
                                     We are built on a fresh principle: your success is our only metric. We immerse ourselves in your world, transforming your unique challenges into powerful, custom software solutions. Our process is collaborative, transparent, and designed entirely around your goals.

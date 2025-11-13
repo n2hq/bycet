@@ -19,11 +19,20 @@ const About = () => {
                 description={description}
                 showContact={true}
             />
-
-
+            
             <PageBarSection />
-            <AboutUsSection />
+            
             <AboutFactsSection />
+            
+            
+            
+            
+
+
+            
+            
+            <AboutUsSection />
+            
         </div>
     )
 }

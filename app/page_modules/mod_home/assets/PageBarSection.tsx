@@ -49,7 +49,7 @@ export const ShowPopUp = ({ showPopUp }: ShowPopUpProps) => {
                     <div className={`mt-3 w-full px-4.5`}>
                         <Link to={`mailto:contact@voysce.com`}>
                             <div>
-                                <b>Consultation:</b> contact@voysce.com
+                                <b>Consultation:</b> help@veycet.com
                             </div>
                         </Link>
                     </div>

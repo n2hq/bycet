@@ -52,7 +52,7 @@ const OrderServiceSection = () => {
                             Your Blueprint for Success Starts Here
                         </div>
                         <div className={`text-center font-extralight max-w-[60%] mx-auto w-full`}>
-                            At Voysce, we believe that starting a new software project should be exciting, not overwhelming. Our ordering process is designed to be a collaborative conversation, not a complex sales funnel. We seek to understand your vision, your challenges, and your goals to ensure we are the right partner for your success.
+                            At Veycet, we believe that starting a new software project should be exciting, not overwhelming. Our ordering process is designed to be a collaborative conversation, not a complex sales funnel. We seek to understand your vision, your challenges, and your goals to ensure we are the right partner for your success.
                         </div>
                     </div>
                 </div>

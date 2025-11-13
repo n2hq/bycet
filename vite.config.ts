@@ -12,4 +12,12 @@ export default defineConfig(({ isSsrBuild }) => ({
       : undefined,
   },
   plugins: [tailwindcss(), reactRouter(), tsconfigPaths()],
+  base: '/',
+  server: {
+    host: true,
+    allowedHosts: ["test.veycet.com", "veycet.com"],
+    hmr: {
+      port: 5702,
+    },
+  },
 }));

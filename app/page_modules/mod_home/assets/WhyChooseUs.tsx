@@ -33,7 +33,7 @@ const WhyChooseUs = () => {
 
 
                     </div>
-                    <div className={` py-16 max-w-[80%] md:max-w-[70%] mx-auto w-full flex flex-col place-content-center gap-y-8`}>
+                    <div className={` py-16 max-w-[80%] md:max-w-[70%] mx-auto w-full flex text-black flex-col place-content-center gap-y-8`}>
                         <div className={`text-4xl font-black tracking-tighter`}>
                             Why Choose <span className="font-extralight">Veycet</span>?
                         </div>

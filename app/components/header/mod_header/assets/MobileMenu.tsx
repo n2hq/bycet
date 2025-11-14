@@ -37,7 +37,7 @@ const MobileMenu = ({ openMenu, closeNav }: MobileMenuProps) => {
 
 
             {/** navlinks body wrapper */}
-            <div className={`mobile-nav-body-wrapper ${navOpen} ${openMenu ? 'shadow-lg shadow-black/50' : ''} bg-[url(https://unbound.radiantthemes.com/wp-content/uploads/2022/03/Banner-Image.png?id=8229)]`}>
+            <div className={`mobile-nav-body-wrapper text-black ${navOpen} ${openMenu ? 'shadow-lg shadow-black/50' : ''} bg-[url(https://unbound.radiantthemes.com/wp-content/uploads/2022/03/Banner-Image.png?id=8229)]`}>
 
                 {/** navlinks body */}
                 <div className={`mobile-nav-links-body `}>
@@ -62,7 +62,7 @@ const MobileMenu = ({ openMenu, closeNav }: MobileMenuProps) => {
 
                     <hr className={`mobile-nav-hrule`} />
 
-                    <div className={`mobile-nav-links-wrapper text-black`}>
+                    <div className={`mobile-nav-links-wrapper `}>
                         {
                             mainHeaderCenterMenu.map((menu: MenuType, index: number) => {
                                 return (

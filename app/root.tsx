@@ -12,6 +12,7 @@ import "./app.css";
 import MainHeader from "./components/header/mod_header/assets/MainHeader";
 import MainFooter from "./components/footer/mod_footer/assets/MainFooter";
 import Header from "./components/header/mod_header_two/Header";
+import { useNProgress } from "./context/useNProgress";
 
 
 export const links: Route.LinksFunction = () => [
@@ -28,6 +29,9 @@ export const links: Route.LinksFunction = () => [
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
+
+  useNProgress()
+
   return (
     <html lang="en">
       <head>

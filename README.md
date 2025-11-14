@@ -3,3 +3,6 @@ npx create-react-router@latest --template remix-run/react-router-templates/node-
 npm i dotenv cross-env env-cmd
 
 npm i react-icofont
+
+npm install nprogress
+npm install --save-dev @types/nprogress

@@ -4,7 +4,7 @@ import data from '../json/status.json'
 const ContactSection = () => {
     let cnt = 0
     return (
-        <div className={`px-[15px] w-full pt-20 pb-25 space-y-20`}>
+        <div className={`px-[15px] w-full pt-20 pb-25 space-y-20 bg-white text-black`}>
             <div className={`max-w-[1200px] mx-auto w-full flex flex-col place-items-center place-content-center relative`}>
                 <div className={`font-black text-4xl bg-white px-5 absolute z-2`}>
                     Our Contact

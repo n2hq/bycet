@@ -56,7 +56,7 @@ export const ShowPopUp = ({ showPopUp }: ShowPopUpProps) => {
 
                     <div className={`mt-8 px-4.5 flex w-full place-content-end gap-x-1.5`}>
                         <CopyEmailButton />
-                        <button className={`bg-blue-700 text-lg px-10 pt-1.5 pb-2 rounded-full text-white hover:cursor-pointer`}
+                        <button className={`bg-blue-700 text-lg pt-1.5 pb-2 rounded-full text-white hover:cursor-pointer w-[100px]`}
                             onClick={() => showPopUp(false)}
                         >
                             Done
@@ -96,7 +96,7 @@ export const CopyEmailButton = () => {
         <button
             onClick={handleCopyEmail}
             className={`
-                px-8 py-2 text-sm font-medium rounded-full transition-colors duration-200 cursor-pointer
+                w-[100px] py-2 text-sm font-medium rounded-full transition-colors duration-200 cursor-pointer
                 ${isCopied
                     ? 'bg-green-500 text-white'
                     : 'bg-blue-200 text-gray-800 hover:bg-gray-300'

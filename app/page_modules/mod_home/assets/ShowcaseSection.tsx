@@ -3,9 +3,14 @@ import '../css/home.css'
 import { Link } from 'react-router'
 import ContactUsButton from '~/components/body/ActionButton'
 import ActionButton from '~/components/body/ActionButton'
+import { preload } from 'react-dom'
 
 const ShowcaseSection = () => {
     const bgUrl = `/images/world-banner.jpg`
+    preload(bgUrl, { as: 'image' })
+
+    const videoUrl = `/images/vids/51b5097e-34d3736d.mp4`
+    preload(videoUrl, { as: `video` })
 
     const [bg, setBg] = useState(bgUrl)
     const [bgCss, setBgCss] = useState(`bg-[url(${bg})]`)
@@ -16,13 +21,13 @@ const ShowcaseSection = () => {
             <div className={`w-full h-full relative`}>
                 <video
                     className="w-full h-full object-cover shadow-lg"
-                    poster='/images/mapimg.jpg'
+                    poster={bgUrl}
                     controls={false}
                     autoPlay
                     muted
                     playsInline
                 >
-                    <source src="/images/vids/51b5097e-34d3736d.mp4" type="video/mp4" />
+                    <source src={videoUrl} type="video/mp4" />
 
                     Your browser does not support the video tag.
                 </video>

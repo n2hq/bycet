@@ -62,7 +62,7 @@ const MobileMenu = ({ openMenu, closeNav }: MobileMenuProps) => {
 
                     <hr className={`mobile-nav-hrule`} />
 
-                    <div className={`mobile-nav-links-wrapper`}>
+                    <div className={`mobile-nav-links-wrapper text-black`}>
                         {
                             mainHeaderCenterMenu.map((menu: MenuType, index: number) => {
                                 return (

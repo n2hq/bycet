@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+.main-header-wrapper{
+    @apply px-[15px] w-full border-b border-b-black/5 fixed left-0 top-0 right-0 z-1000 bg-white shadow
+}
+
+.main-header-inner{
+    @apply max-w-[1200px] mx-auto w-full h-[60px]
+}
+
+.main-header-columns{
+    @apply flex place-content-between flex-row gap-4 w-full h-full place-items-center
+}
+
+.main-header-logo{
+    @apply text-[28px] font-sans font-black tracking-tighter flex place-items-center  
+}
+
+.main-header-center{
+    @apply hidden lg:flex gap-10
+}
+
+.main-header-menu-item{
+    @apply text-sm font-medium hover:bg-gray-200 pt-0.5 pb-1 pr-2 pl-2 rounded-full hover:text-gray-500
+}
+
+.main-header-right {
+    @apply flex place-items-center gap-1
+}
+
+.main-header-search-icon{
+    @apply w-10 h-10 rounded-full flex place-items-center place-content-center hover:bg-blue-100 hover:cursor-pointer hover:text-black bg-blue-100 text-blue-500 border border-blue-500
+}
+
+.main-header-hamburger-icon{
+    @apply w-10 h-10 rounded-full flex place-items-center place-content-center border border-gray-600 hover:bg-gray-100 hover:text-white hover:cursor-pointer
+}
+
+.main-header-hamburger-icon-inner {
+    @apply text-gray-500
+}
+
+.main-header-main-search-wrapper{
+    @apply w-full h-[60px] fixed left-0 top-0 right-0 bg-white px-[15px]
+}
+
+.main-header-main-search-inner{
+    @apply max-w-[1200px] w-full mx-auto flex place-items-center h-full gap-2
+}
+
+.main-header-main-search-box{
+    @apply bg-gray-200 flex rounded-full w-full
+}
+
+.main-header-main-search-inner input{
+    @apply outline-none grow px-1
+}
+
+.main-header-main-search-close{
+    @apply min-w-10 w-10 h-10 flex place-items-center place-content-center hover:cursor-pointer rounded-full bg-gray-200
+}
+
+.main-header-main-search-input{
+    @apply text-gray-600
+}
+
+.mobile-nav-overlay{
+    @apply transform fixed transition-all duration-500 inset-0 z-4000 bg-black opacity-20 w-full
+}
+
+.mobile-nav-body-wrapper {
+    @apply transform transition-all duration-500 delay-0 fixed justify-start h-full w-full md:w-[400px] bg-white z-4001 overflow-y-auto top-0 left-0
+}
+
+.mobile-nav-links-body {
+    @apply bg-transparent
+}
+
+.mobile-nav-header {
+    @apply px-4 md:pl-12 flex place-content-between h-[60px] place-items-center
+}
+
+.mobile-nav-header-logo-wrapper {
+    @apply h-full flex justify-center items-center
+}
+
+.mobile-nav-close-button-wrapper {
+    @apply h-full flex justify-center items-center cursor-pointer 
+}
+
+.mobile-nav-close-button {
+    @apply w-10 h-10 bg-gray-200 rounded-full flex justify-center items-center hover:bg-blue-600 hover:text-white border
+}
+
+.mobile-nav-hrule {
+    @apply border-t border-gray-500/15
+}
+
+.mobile-nav-links-wrapper {
+    @apply flex flex-col mt-5 px-5 space-y-4
+}
+
+.mobile-nav-menu-item {
+    @apply text-[15px] py-2 px-4 rounded-lg hover:bg-gray-200 hover:cursor-pointer flex place-items-center place-content-between w-full hover:text-gray-500
+}
+
+.mobile-menu-rotate-chevron{
+    @apply transition-all delay-0 duration-500 ease-in-out
+}
+
+
+.main-header-menu-item-link{
+    @apply flex place-items-center gap-1
+}
+
+.main-header-menu-item-more{
+    @apply flex place-items-center place-content-center rounded-full bg-gray-200 w-2 h-20
+}
+
+.main-header-menu-item-link-icon{
+    @apply text-lg
+}

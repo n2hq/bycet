@@ -6,7 +6,7 @@ import { IndustriesJson } from '../json/IndustriesJson'
 
 const IndustriesSection = () => {
     return (
-        <div className={`w-full px-[15px] bg-blue-50/30 py-30 border-b border-gray-200`}>
+        <div className={`w-full px-[15px] bg-cyan-50 py-30 border-b border-gray-200 text-black`}>
             <div className={`max-w-[1200px] mx-auto w-full flex flex-col gap-y-6`}>
                 <div className={`text-sm text-center uppercase`}>
                     Shape the Future of Your Industry

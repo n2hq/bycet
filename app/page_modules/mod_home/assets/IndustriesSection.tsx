@@ -23,9 +23,9 @@ const IndustriesSection = () => {
                             IndustriesJson.map((industry, index: number) => {
                                 return (
                                     <div key={index}>
-                                        <div className={`border border-gray-200 px-6 pt-7 pb-9 flex flex-col gap-y-3 h-full shadow-lg shadow-gray-200 bg-white text-base rounded-lg`}>
+                                        <div className={`border border-gray-300 px-6 pt-7 pb-9 flex flex-col gap-y-3 h-full shadow-lg shadow-gray-200 bg-white text-base rounded-lg`}>
                                             <div>
-                                                <div className={`border border-gray-300 rounded-full w-10 h-10 flex place-items-center place-content-center text-2xl text-blue-600/50`}>
+                                                <div className={`border border-gray-500 rounded-full w-10 h-10 flex place-items-center place-content-center text-2xl text-blue-600/50`}>
                                                     {industry.icon}
                                                 </div>
                                             </div>

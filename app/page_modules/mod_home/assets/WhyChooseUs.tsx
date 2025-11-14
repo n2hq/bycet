@@ -22,7 +22,7 @@ const WhyChooseUs = () => {
                                         <div>
                                             Streamline Operations, Amplify Results
                                         </div>
-                                        <div className={`text-3xl font-black`}>
+                                        <div className={`text-2xl md:text-3xl font-black`}>
 
                                             Automate complex workflows to reduce costs & eliminate errors
                                         </div>

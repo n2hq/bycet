@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .main-header-wrapper{
-    @apply px-[15px] w-full border-b border-b-black/5 fixed left-0 top-0 right-0 z-1000 bg-white
+    @apply px-[15px] w-full border-b border-b-black/5 fixed left-0 top-0 right-0 z-1000 bg-white shadow
 }
 
 .main-header-inner{
@@ -21,7 +21,7 @@
 }
 
 .main-header-menu-item{
-    @apply text-sm font-medium hover:bg-blue-200 pt-0.5 pb-1 pr-2 pl-2 rounded-full hover:text-gray-500
+    @apply text-sm font-medium hover:bg-gray-200 pt-0.5 pb-1 pr-2 pl-2 rounded-full hover:text-gray-500
 }
 
 .main-header-right {
@@ -33,11 +33,11 @@
 }
 
 .main-header-hamburger-icon{
-    @apply w-10 h-10 rounded-full flex place-items-center place-content-center border border-blue-600 hover:bg-gray-100 hover:text-white hover:cursor-pointer
+    @apply w-10 h-10 rounded-full flex place-items-center place-content-center border border-gray-600 hover:bg-gray-100 hover:text-white hover:cursor-pointer
 }
 
 .main-header-hamburger-icon-inner {
-    @apply text-blue-700
+    @apply text-gray-500
 }
 
 .main-header-main-search-wrapper{
@@ -114,7 +114,7 @@
 }
 
 .main-header-menu-item-more{
-    @apply flex place-items-center place-content-center rounded-full bg-blue-200 w-2 h-20
+    @apply flex place-items-center place-content-center rounded-full bg-gray-200 w-2 h-20
 }
 
 .main-header-menu-item-link-icon{

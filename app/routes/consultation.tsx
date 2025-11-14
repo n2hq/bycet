@@ -11,6 +11,7 @@ import OrderShowcaseSection from "~/page_modules/mod_order/assets/OrderShowCaseS
 import OrderServiceSection from "~/page_modules/mod_order/assets/OrderServiceSection";
 import OrderSummarySection from "~/page_modules/mod_order/assets/OrderSummarySection";
 import HeroAlt from "~/components/body/HeroAlt";
+import { preload } from "react-dom";
 
 export function meta({ }: Route.MetaArgs) {
   return [
@@ -25,6 +26,8 @@ export function loader({ context }: Route.LoaderArgs) {
 
 export default function Consultation({ loaderData }: Route.ComponentProps) {
   const bgImg = `/images/consultation-banner.jpg`
+  preload(bgImg, { as: 'image' })
+
   const title = `Global Software & Business solutions that works.`
   const description = `No matter the size or complexity of your business, we offer digital tools, insights and expertise that keep you ahead.`
 

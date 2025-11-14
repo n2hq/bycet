@@ -1,6 +1,6 @@
 const CopyrightPolicy = () => {
     return (
-        <div className="max-w-4xl mx-auto px-4 py-8">
+        <div className="w-full  lg:max-w-[70%] xl:max-w-[700px] mx-auto px-4 py-8">
             <h1 className="text-3xl tracking-tighter font-black text-gray-900 mb-6 first-letter:italic">Copyright Policy</h1>
             <p className="text-gray-600 mb-8">Last Updated: {new Date().toLocaleDateString()}</p>
 
@@ -14,7 +14,7 @@ const CopyrightPolicy = () => {
                         international copyright, trademark, and other intellectual property laws.
                     </p>
                 </section>
-
+                <hr />
                 <section>
                     <h2 className="text-xl font-semibold text-gray-800 mb-3">2. Copyright Ownership</h2>
                     <p className="text-gray-600 mb-3">
@@ -29,7 +29,7 @@ const CopyrightPolicy = () => {
                         service marks contained on the website are the trademarks of their respective owners.
                     </p>
                 </section>
-
+                <hr />
                 <section>
                     <h2 className="text-xl font-semibold text-gray-800 mb-3">3. Permitted Use</h2>
                     <p className="text-gray-600 mb-3">
@@ -42,7 +42,7 @@ const CopyrightPolicy = () => {
                         <li>Store files from our website for your personal, non-commercial use</li>
                     </ul>
                 </section>
-
+                <hr />
                 <section>
                     <h2 className="text-xl font-semibold text-gray-800 mb-3">4. Restrictions</h2>
                     <p className="text-gray-600 mb-3">You must not:</p>
@@ -55,7 +55,7 @@ const CopyrightPolicy = () => {
                         <li>Use our intellectual property in any way that suggests endorsement or association</li>
                     </ul>
                 </section>
-
+                <hr />
                 <section>
                     <h2 className="text-xl font-semibold text-gray-800 mb-3">5. Copyright Infringement Reports</h2>
                     <p className="text-gray-600 mb-3">
@@ -72,7 +72,7 @@ const CopyrightPolicy = () => {
                         <li>A statement that the information in the notification is accurate, and under penalty of perjury, that you are authorized to act on behalf of the copyright owner</li>
                     </ul>
                 </section>
-
+                <hr />
                 <section>
                     <h2 className="text-xl font-semibold text-gray-800 mb-3">6. Counter-Notification</h2>
                     <p className="text-gray-600">
@@ -82,7 +82,7 @@ const CopyrightPolicy = () => {
                         federal court in your jurisdiction.
                     </p>
                 </section>
-
+                <hr />
                 <section>
                     <h2 className="text-xl font-semibold text-gray-800 mb-3">7. Repeat Infringer Policy</h2>
                     <p className="text-gray-600">
@@ -92,7 +92,7 @@ const CopyrightPolicy = () => {
                         of any users who infringe any intellectual property rights of others.
                     </p>
                 </section>
-
+                <hr />
                 <section>
                     <h2 className="text-xl font-semibold text-gray-800 mb-3">8. Third-Party Content</h2>
                     <p className="text-gray-600">
@@ -101,7 +101,7 @@ const CopyrightPolicy = () => {
                         the responsibility of the respective third parties.
                     </p>
                 </section>
-
+                <hr />
                 <section>
                     <h2 className="text-xl font-semibold text-gray-800 mb-3">9. Changes to This Policy</h2>
                     <p className="text-gray-600">
@@ -109,7 +109,7 @@ const CopyrightPolicy = () => {
                         by posting the new Copyright Policy on this page and updating the "Last Updated" date.
                     </p>
                 </section>
-
+                <hr />
                 <section className="bg-gray-50 p-6 rounded-lg text-[12]px">
                     <h2 className="text-lg font-semibold text-gray-800 mb-3">Contact Information</h2>
                     <p className="text-gray-600 mb-3">

@@ -101,7 +101,7 @@
 }
 
 .mobile-nav-menu-item {
-    @apply text-[15px] py-2 px-4 rounded-lg hover:bg-blue-200 hover:cursor-pointer flex place-items-center place-content-between w-full hover:text-gray-500
+    @apply text-[15px] py-2 px-4 rounded-lg hover:bg-gray-200 hover:cursor-pointer flex place-items-center place-content-between w-full hover:text-gray-500
 }
 
 .mobile-menu-rotate-chevron{

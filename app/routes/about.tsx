@@ -4,9 +4,13 @@ import AboutFactsSection from '~/page_modules/mod_about/assets/AboutFactsSection
 import AboutShowcaseSection from '~/page_modules/mod_about/assets/AboutShowcaseSection'
 import AboutUsSection from '~/page_modules/mod_about/assets/AboutUsSection'
 import PageBarSection from '~/page_modules/mod_home/assets/PageBarSection'
+import { preload } from 'react-dom'
 
 const About = () => {
     const bgImg = `/images/about-banner.jpg`
+
+    preload(bgImg, { as: 'image' })
+
     const title = `Your Challenge, Our Shared Mission.`
     const description = `Bring us your most complex business problems. We partner with you to design and build the intelligent software solutions that turn your challenges into your greatest competitive advantages. Let's start building what's next, together.`
 
@@ -19,20 +23,20 @@ const About = () => {
                 description={description}
                 showContact={true}
             />
-            
+
             <PageBarSection />
-            
+
             <AboutFactsSection />
-            
-            
-            
-            
 
 
-            
-            
+
+
+
+
+
+
             <AboutUsSection />
-            
+
         </div>
     )
 }

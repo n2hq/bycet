@@ -11,7 +11,7 @@ const TOSInfoSection = () => {
                     Clear Guidelines for a Secure Partnership.
                 </div>
                 <div className={`text-sm text-center text-[19px] text-gray-500 md:w-[80%] mx-auto`}>
-                    Welcome to Voysce. These terms outline the rules and guidelines for using our website and services, ensuring a secure and productive experience for all our partners and users.
+                    Welcome to Veycet. These terms outline the rules and guidelines for using our website and services, ensuring a secure and productive experience for all our partners and users.
                 </div>
 
             </div>

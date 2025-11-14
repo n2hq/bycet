@@ -11,7 +11,7 @@ export const InfoPrivacy = () => {
                 <strong data-start="216" data-end="235">Effective Date:</strong> 23 Jul 2025
             </p>
             <p data-start="251" data-end="429">
-                Thank you for trusting <strong data-start="274" data-end="293">Voysce</strong> with your information. Your privacy is important to us, and we’re committed to handling your data with care, respect, and transparency.
+                Thank you for trusting <strong data-start="274" data-end="293">Veycet</strong> with your information. Your privacy is important to us, and we’re committed to handling your data with care, respect, and transparency.
             </p>
             <hr data-start="431" data-end="434" />
             <h3 data-start="436" data-end="469">
@@ -168,7 +168,7 @@ export const InfoPrivacy = () => {
                     <p data-start="2281" data-end="2326">Contact us with any privacy-related questions</p>
                 </li>
             </ul>
-            <p data-start="2328" data-end="2401">To make a request, please reach out to us at <strong data-start="2373" data-end="2400">support@voysce.com</strong>.</p>
+            <p data-start="2328" data-end="2401">To make a request, please reach out to us at <strong data-start="2373" data-end="2400">help@veycet.com</strong>.</p>
             <hr data-start="2403" data-end="2406" />
             <h3 data-start="2408" data-end="2427">
                 <strong data-start="2412" data-end="2427">7. Security</strong>
@@ -202,8 +202,8 @@ export const InfoPrivacy = () => {
                 If you have any questions or concerns about this Privacy Policy, feel free to contact us:
             </p>
             <p data-start="3296" data-end="3371">
-                <strong data-start="3299" data-end="3309">Email:</strong> <a href="mailto:support@voysce.com">support@voysce.com</a><br data-start="3331" data-end="3334" />
-                🌐 <strong data-start="3337" data-end="3349">Website:</strong> <a href="voysce.com/contact">voysce.com/contact</a>
+                <strong data-start="3299" data-end="3309">Email:</strong> <a href="mailto:help@veycet.com">help@veycet.com</a><br data-start="3331" data-end="3334" />
+                🌐 <strong data-start="3337" data-end="3349">Website:</strong> <a href="/contact">veycet.com/contact</a>
             </p>
 
             <p data-start="3378" data-end="3557" />

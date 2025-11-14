@@ -92,7 +92,7 @@ const MobileMenu = ({ openMenu, closeNav }: MobileMenuProps) => {
                                     <div key={index}>
                                         <Link to={menu.url} onClick={() => closeNav()}>
                                             <div
-                                                className={`group mobile-nav-menu-item ${location.pathname === menu.url && ' bg-blue-500 text-white'}`}
+                                                className={`group mobile-nav-menu-item ${location.pathname === menu.url && ' bg-gray-300/80 text-gray-800 font-semibold'}`}
                                             >
                                                 <div>
                                                     {menu.title}

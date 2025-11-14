@@ -31,9 +31,7 @@ export function loader({ context }: Route.LoaderArgs) {
 }
 
 export default function Privacy({ loaderData }: Route.ComponentProps) {
-    const bgImg = `https://unbound.radiantthemes.com/wp-content/uploads/2018/06/business-agency-3-banner.jpg?id=7870`
-    const title = `Industry-Specific Solutions, Powered by AI & Data.`
-    const description = `We don't just build technology; we build your competitive advantage. Our end-to-end expertise delivers custom software and intelligent systems that solve your unique industry challenges and drive growth.`
+
 
     return (
         <div>

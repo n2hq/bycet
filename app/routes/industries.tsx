@@ -15,6 +15,7 @@ import IndustriesSection from "~/page_modules/mod_home/assets/IndustriesSection"
 import ContactSection from "~/page_modules/mod_home/assets/ContactSection";
 import IndustriesShowcaseSection from "~/page_modules/mod_industries/assets/IndustriesShowCaseSection";
 import HeroAlt from "~/components/body/HeroAlt";
+import { preload } from "react-dom";
 
 export function meta({ }: Route.MetaArgs) {
   return [
@@ -29,6 +30,7 @@ export function loader({ context }: Route.LoaderArgs) {
 
 export default function Industries({ loaderData }: Route.ComponentProps) {
   const bgImg = `/images/industries-banner.jpg`
+  preload(bgImg, { as: 'image' })
 
   const title = `Industry-Specific Solutions, Powered by AI & Data.`
   const description = `We don't just build technology; we build your competitive advantage. Our end-to-end expertise delivers custom software and intelligent systems that solve your unique industry challenges and drive growth.`

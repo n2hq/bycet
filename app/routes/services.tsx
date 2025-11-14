@@ -14,6 +14,7 @@ import WhyChooseUs from "~/page_modules/mod_home/assets/WhyChooseUs";
 import IndustriesSection from "~/page_modules/mod_home/assets/IndustriesSection";
 import ContactSection from "~/page_modules/mod_home/assets/ContactSection";
 import HeroAlt from "~/components/body/HeroAlt";
+import { preload } from "react-dom";
 
 export function meta({ }: Route.MetaArgs) {
   return [
@@ -28,6 +29,8 @@ export function loader({ context }: Route.LoaderArgs) {
 
 export default function Services({ loaderData }: Route.ComponentProps) {
   const bgImg = `/images/services-banner.jpg`
+  preload(bgImg, { as: 'image' })
+
   const title = `Scalable Software Solutions for a Competitive Edge`
   const description = `We deliver the digital tools, strategic insights, and expert partnership to transform your operations and drive measurable growth.`
 

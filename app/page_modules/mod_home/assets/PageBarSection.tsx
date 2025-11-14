@@ -38,7 +38,7 @@ export type ShowPopUpProps = {
 export const ShowPopUp = ({ showPopUp }: ShowPopUpProps) => {
     return (
         <div className='bg-black/50 fixed top-0 left-0 right-0 w-full h-full flex place-items-center place-content-center z-50 text-black'>
-            <div className={`w-md md:w-lg h-fit rounded-lg bg-white overflow-hidden pb-6`}>
+            <div className={`w-[320px] mx-auto md:w-lg h-fit rounded-lg bg-white overflow-hidden pb-6`}>
                 <div className={`w-full h-full flex flex-col place-items-start place-content-start`}>
                     <div className={`w-full px-4.5 py-3 text-lg font-semibold bg-blue-100`}>
                         Send us an email

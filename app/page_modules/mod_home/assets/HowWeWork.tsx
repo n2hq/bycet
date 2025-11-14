@@ -3,7 +3,7 @@ import { HowWeWorkJson } from '../json/HowWeWorkJson'
 
 const HowWeWork = () => {
     return (
-        <div className={`w-full px-[15px] py-22`}>
+        <div className={`w-full px-[15px] py-22 bg-white text-black`}>
             <div className={`flex flex-col mb-10`}>
                 <div className={`text-center text-4xl font-black  md:max-w-[60%] mx-auto w-full flex place-content-center mb-5`}>
                     Our Work Process

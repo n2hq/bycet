@@ -12,7 +12,7 @@ const PageBarSection = () => {
             {
                 popUp && <ShowPopUp showPopUp={setPopUp} />
             }
-            <div className={` min-h-[150px] py-8 md:py-0 gap-y-5 md:gap-y-0 text-center md:text-start text-white flex flex-col md:flex-row place-content-between place-items-center px-[15px] max-w-[1200px] mx-auto w-full`}>
+            <div className={` h-auto py-8 gap-y-5 md:gap-y-0 text-center md:text-start text-white flex flex-col md:flex-row place-content-between place-items-center px-[15px] max-w-[1200px] mx-auto w-full`}>
                 <div className={`text-[28px] text-blue-50 leading-tight font-semibold md:text-3xl`}>
                     Get a Free Consultation for Your Business
                 </div>

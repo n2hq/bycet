@@ -7,8 +7,8 @@ const MainLogo = () => {
             <Link to={'/'}>
                 <div className={`flex place-items-center w-fit text-[24px] font-extrabold font-sans place-content-between`}>
 
-                    <div className={`text-blue-800 first-letter:`}>
-                        <span className=' text-[26px] '>v</span><span className='font-bold relative -left-1px '>eycet</span>.
+                    <div className={`text-black first-letter:`}>
+                        <span className=' '>v</span><span className='font-bold relative -left-1px '>eycet</span>.
                     </div>
 
 

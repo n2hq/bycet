@@ -38,7 +38,7 @@ const MobileMenu = ({ openMenu, closeNav }: MobileMenuProps) => {
 
 
             {/** navlinks body wrapper */}
-            <div className={`mobile-nav-body-wrapper text-black ${navOpen} ${openMenu ? 'shadow-lg shadow-black/50' : ''} bg-[url(https://unbound.radiantthemes.com/wp-content/uploads/2022/03/Banner-Image.png?id=8229)]`}>
+            <div className={`transform transition-all duration-500 delay-0 fixed justify-start h-full w-full md:w-[300px] bg-white z-4001 overflow-y-auto top-0 left-0 text-black ${navOpen} ${openMenu ? 'shadow-lg shadow-black/50' : ''} bg-[url(https://unbound.radiantthemes.com/wp-content/uploads/2022/03/Banner-Image.png?id=8229)]`}>
 
                 {/** navlinks body */}
                 <div className={`mobile-nav-links-body `}>
@@ -55,7 +55,7 @@ const MobileMenu = ({ openMenu, closeNav }: MobileMenuProps) => {
 
                             <div
                                 onClick={closeNav}
-                                className='mobile-nav-close-button group'>
+                                className='w-[30px] h-[30px] bg-gray-200 rounded-full flex justify-center items-center hover:bg-blue-600 hover:text-white border group'>
                                 <IoClose size={28} className={` transition-all duration-500 ease-in-out group-hover:rotate-90`} />
                             </div>
                         </div>
@@ -63,14 +63,14 @@ const MobileMenu = ({ openMenu, closeNav }: MobileMenuProps) => {
 
                     <hr className={`mobile-nav-hrule`} />
 
-                    <div className={`mobile-nav-links-wrapper `}>
+                    <div className={`flex flex-col mt-5 px-4 space-y-[10px] `}>
                         {
                             mainHeaderCenterMenu.map((menu: MenuType, index: number) => {
                                 return (
                                     <div key={index}>
                                         <Link to={menu.url} onClick={() => closeNav()}>
                                             <div
-                                                className={`group mobile-nav-menu-item ${location.pathname === menu.url && ' bg-blue-500 text-white'}`}
+                                                className={`group text-[15px] py-[7px] px-[13px] rounded-lg hover:bg-gray-200 hover:cursor-pointer flex place-items-center place-content-between w-full hover:text-gray-500 ${location.pathname === menu.url && ' bg-blue-500 text-white'}`}
                                             >
                                                 <div>
                                                     {menu.title}

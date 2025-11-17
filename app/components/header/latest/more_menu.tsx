@@ -1,8 +1,13 @@
 import { BsBook, BsFillBriefcaseFill, BsLock } from "react-icons/bs";
 import { CgPhone } from "react-icons/cg";
-import { FaBlenderPhone, FaShoppingBag } from "react-icons/fa";
+import { FaBlenderPhone, FaHome, FaShoppingBag } from "react-icons/fa";
 
 export const moremenu = [
+    {
+        title: "Home",
+        url: '/',
+        icon: <FaHome />
+    },
     {
         title: "About",
         url: '/about',

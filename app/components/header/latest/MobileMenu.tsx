@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { type ReactNode } from 'react'
 import { IoClose } from 'react-icons/io5'
 
 
@@ -17,7 +17,8 @@ export interface MobileMenuProps {
 
 export type MenuType = {
     title: string,
-    url: string
+    url: string,
+    icon: ReactNode
 }
 
 const MobileMenu = ({ openMenu, closeNav }: MobileMenuProps) => {
@@ -29,11 +30,11 @@ const MobileMenu = ({ openMenu, closeNav }: MobileMenuProps) => {
 
 
     return (
-        <div className={`mobile-nav-wrapper bg-[url(https://unbound.radiantthemes.com/wp-content/uploads/2022/03/Banner-Image.png?id=8229)]`}>
+        <div className={``}>
             {/** overlay */}
             <div
                 onClick={closeNav}
-                className={`mobile-nav-overlay ${bgOverlay}`}>
+                className={`transform fixed transition-all duration-500 inset-0 z-4000 bg-black opacity-20 w-full ${bgOverlay}`}>
             </div>
 
 
@@ -44,14 +45,14 @@ const MobileMenu = ({ openMenu, closeNav }: MobileMenuProps) => {
                 <div className={`mobile-nav-links-body `}>
 
                     {/** mobile nav header with logo and close */}
-                    <div className={`mobile-nav-header `}>
+                    <div className={`px-4 md:pl-12 flex place-content-between h-[60px] place-items-center `}>
 
                         {/** logo wrapper */}
-                        <div className='mobile-nav-header-logo-wrapper'>
+                        <div className='h-full flex justify-center items-center'>
                             <MainLogo />
                         </div>
 
-                        <div className='mobile-nav-close-button-wrapper'>
+                        <div className='h-full flex justify-center items-center cursor-pointer'>
 
                             <div
                                 onClick={closeNav}
@@ -63,55 +64,55 @@ const MobileMenu = ({ openMenu, closeNav }: MobileMenuProps) => {
 
                     <hr className={`mobile-nav-hrule`} />
 
-                    <div className={`flex flex-col mt-5 px-4 space-y-[10px] `}>
-                        {
-                            mainHeaderCenterMenu.map((menu: MenuType, index: number) => {
-                                return (
-                                    <div key={index}>
-                                        <Link to={menu.url} onClick={() => closeNav()}>
-                                            <div
-                                                className={`group text-[15px] py-[7px] px-[13px] rounded-lg hover:bg-gray-200 hover:cursor-pointer flex place-items-center place-content-between w-full hover:text-gray-500 ${location.pathname === menu.url && ' bg-blue-500 text-white'}`}
-                                            >
-                                                <div>
-                                                    {menu.title}
-                                                </div>
-                                                <div>
-                                                    <CgChevronRight size={20} className='mobile-menu-rotate-chevron group-hover:rotate-90' />
-                                                </div>
-                                            </div>
-                                        </Link>
-                                    </div>
-                                )
-                            })
-                        }
+                    <div className={`flex flex-col mt-5`}>
 
-                        <div className={`border-b border-gray-100 shadow-xl  h-5`} />
+                        <VerticalMenu
+                            menuData={moremenu}
+                            closeNav={closeNav}
+                        />
 
-                        {
-                            moremenu.map((menu: MenuType, index: number) => {
-                                return (
-                                    <div key={index}>
-                                        <Link to={menu.url} onClick={() => closeNav()}>
-                                            <div
-                                                className={`group mobile-nav-menu-item ${location.pathname === menu.url && ' bg-gray-300/80 text-gray-800 font-semibold'}`}
-                                            >
-                                                <div>
-                                                    {menu.title}
-                                                </div>
-                                                <div>
-                                                    <CgChevronRight size={20} className='mobile-menu-rotate-chevron group-hover:rotate-90' />
-                                                </div>
-                                            </div>
-                                        </Link>
-                                    </div>
-                                )
-                            })
-                        }
                     </div>
                     <div className={`h-10`} />
 
                 </div>
             </div>
+        </div>
+    )
+}
+
+
+const VerticalMenu = ({ menuData, closeNav }: any) => {
+    const location = useLocation()
+
+    return (
+        <div>
+            {
+                menuData.map((menu: MenuType, index: number) => {
+                    const IconComponent = menu.icon
+
+                    return (
+                        <div key={index}>
+                            <Link to={menu.url} onClick={() => closeNav()}>
+                                <div
+                                    className={`group text-[15px] py-2 px-4 rounded-none hover:bg-gray-200 hover:cursor-pointer flex place-items-center place-content-between w-full hover:text-gray-500 ${location.pathname === menu.url && ' bg-gray-200 text-black'}`}
+                                >
+                                    <div className={` flex place-items-center gap-10 py-1`}>
+                                        <div className={`w-[22px] h-5 flex place-items-center place-content-center  text-[20px]`}>
+                                            {menu.icon}
+                                        </div>
+                                        <div className={`text-[13px]`}>
+                                            {menu.title}
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <CgChevronRight size={20} className='transition-all delay-0 duration-500 ease-in-out group-hover:rotate-90' />
+                                    </div>
+                                </div>
+                            </Link>
+                        </div>
+                    )
+                })
+            }
         </div>
     )
 }

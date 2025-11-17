@@ -19,7 +19,7 @@ echo "🧪 Switching to 'main' branch..."
 git checkout main || git checkout -b main
 
 echo "🔄 Pulling latest changes (if any)..."
-git pull origin main --allow-unrelated-histories || echo "No existing history to pull"
+git pull origin main --allow-unrelated-histories --no-rebase || echo "No existing history to pull"
 
 echo "Deleting build folder..."
 rm -rf build/

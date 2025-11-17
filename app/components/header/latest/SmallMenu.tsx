@@ -5,20 +5,20 @@ import MainNavContext from '~/context/MainNavContext';
 
 const menudata = [
     {
-        title: "New York",
-        url: "https://index.veycet.com/web/browse?q=&category=shopping and retail&city=new york city"
+        title: "Services",
+        url: "/services"
     },
 
     {
-        title: "London",
-        url: "https://index.veycet.com/web/browse?q=&category=shopping and retail&city=london"
+        title: "Industry",
+        url: "/industry"
     },
     {
-        title: "Dubai",
-        url: "https://index.veycet.com/web/browse?q=&category=shopping and retail&city=dubai"
+        title: "Contact",
+        url: "/contact"
     },
     {
-        title: "More",
+        title: "Business Index",
         url: "https://index.veycet.com/web/browse"
     },
 ]

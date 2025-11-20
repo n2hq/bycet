@@ -21,7 +21,7 @@ const ResponsibleDisclosure = () => {
                         in a responsible manner. Please act in good faith and follow these guidelines:
                     </p>
                     <ul className="list-disc list-inside text-gray-600 space-y-2 ml-4">
-                        <li>Submit your findings to <strong>help@veycet.com</strong></li>
+                        <li>Submit your findings to <strong>info@bycet.com</strong></li>
                         <li>Provide sufficient information to reproduce the vulnerability</li>
                         <li>Do not exploit the vulnerability beyond what is necessary to demonstrate it</li>
                         <li>Do not access, modify, or destroy data that does not belong to you</li>
@@ -87,7 +87,7 @@ const ResponsibleDisclosure = () => {
                         Please send all vulnerability reports to:
                     </p>
                     <div className="bg-gray-50 p-4 rounded-lg">
-                        <p className="text-gray-800 font-medium">Email: help@veycet.com</p>
+                        <p className="text-gray-800 font-medium">Email: info@bycet.com</p>
                         <p className="text-gray-600 text-sm mt-1">
                             We prefer encrypted communications. Please use our PGP key if possible.
                         </p>

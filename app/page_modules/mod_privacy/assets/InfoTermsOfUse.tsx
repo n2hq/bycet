@@ -10,8 +10,8 @@ const InfoTermsOfUse = () => {
                 <section>
                     <h2 className="text-xl font-semibold text-gray-800 mb-3">1. Acceptance of Terms</h2>
                     <p className="text-gray-600">
-                        Welcome to Veycet ("we," "our," or "us"). By accessing or using our website
-                        at Veycet.com (the "Site"), you agree to be bound by these Terms of Use and
+                        Welcome to Bycet ("we," "our," or "us"). By accessing or using our website
+                        at Bycet.com (the "Site"), you agree to be bound by these Terms of Use and
                         our Privacy Policy. If you do not agree to these terms, please do not use our Site.
                     </p>
                 </section>
@@ -21,9 +21,9 @@ const InfoTermsOfUse = () => {
                     <p className="text-gray-600">
                         All content on this Site, including but not limited to text, graphics, logos,
                         images, audio clips, digital downloads, data compilations, and software, is
-                        the property of Veycet Ltd. or its content suppliers and is protected by
-                        international copyright and intellectual property laws. The trademarks "Veycet"
-                        and the Veycet logo are our exclusive property.
+                        the property of Bycet Ltd. or its content suppliers and is protected by
+                        international copyright and intellectual property laws. The trademarks "Bycet"
+                        and the Bycet logo are our exclusive property.
                     </p>
                 </section>
                 <hr />
@@ -74,7 +74,7 @@ const InfoTermsOfUse = () => {
                 <section>
                     <h2 className="text-xl font-semibold text-gray-800 mb-3">7. Limitation of Liability</h2>
                     <p className="text-gray-600">
-                        To the fullest extent permitted by law, Veycet Ltd. shall not be liable for
+                        To the fullest extent permitted by law, Bycet Ltd. shall not be liable for
                         any direct, indirect, incidental, special, consequential, or punitive damages
                         arising out of or in any way connected with your use of the Site or the
                         inability to use the Site.
@@ -87,14 +87,14 @@ const InfoTermsOfUse = () => {
                         The Site may contain links to external websites. These links are provided for
                         your convenience only. We do not control these sites and are not responsible
                         for their content, privacy policies, or practices. The inclusion of any link
-                        does not imply endorsement by Veycet.
+                        does not imply endorsement by Bycet.
                     </p>
                 </section>
                 <hr />
                 <section>
                     <h2 className="text-xl font-semibold text-gray-800 mb-3">9. Indemnification</h2>
                     <p className="text-gray-600">
-                        You agree to indemnify and hold harmless Veycet Ltd., its officers, directors,
+                        You agree to indemnify and hold harmless Bycet Ltd., its officers, directors,
                         employees, and agents from any claims, liabilities, damages, losses, or expenses
                         arising out of your use of the Site or your violation of these Terms.
                     </p>
@@ -122,7 +122,7 @@ const InfoTermsOfUse = () => {
                     <p className="text-gray-600">
                         If you have any questions about these Terms of Use, please contact us at:
                     </p>
-                    <p className="text-gray-800 font-medium mt-2">Email: help@veycet.com</p>
+                    <p className="text-gray-800 font-medium mt-2">Email: info@bycet.com</p>
                 </section>
             </div>
         </div>

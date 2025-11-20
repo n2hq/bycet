@@ -117,8 +117,8 @@ const CopyrightPolicy = () => {
                         please contact us at:
                     </p>
                     <div className="mt-3">
-                        <p className="text-gray-800 font-bold">Voysce Ltd.</p>
-                        <p className="text-gray-800 font-medium">Email: support@voysce.com</p>
+                        <p className="text-gray-800 font-bold">Bycet Worldwide Ltd.</p>
+                        <p className="text-gray-800 font-medium">Email: info@bycet.com</p>
                         <p className="text-gray-600 text-sm mt-2">
                             Please allow 3-5 business days for a response to copyright infringement notices.
                         </p>

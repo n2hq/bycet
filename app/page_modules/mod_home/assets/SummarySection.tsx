@@ -1,5 +1,6 @@
 import React from 'react'
 import { SummaryJson } from '../json/SummaryJson'
+import { config } from '~/lib/lib'
 
 const SummarySection = () => {
     return (
@@ -13,7 +14,7 @@ const SummarySection = () => {
                 </div>
 
                 <div className={`text-center text-[19px] md:mx-40`}>
-                    At Veycet, we understand that technology is not a one-size-fits-all solution. We are a dedicated team of engineers, data scientists, and DevOps specialists who partner with you to build, integrate, and optimize the custom technology solutions your business needs to thrive in a competitive landscape. We don't just write code; we solve complex problems and deliver measurable results.
+                    At {config.VITE_SITE}, we understand that technology is not a one-size-fits-all solution. We are a dedicated team of engineers, data scientists, and DevOps specialists who partner with you to build, integrate, and optimize the custom technology solutions your business needs to thrive in a competitive landscape. We don't just write code; we solve complex problems and deliver measurable results.
                 </div>
             </div>
 

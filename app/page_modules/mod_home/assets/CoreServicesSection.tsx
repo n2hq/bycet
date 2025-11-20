@@ -14,7 +14,7 @@ const CoreServicesSection = () => {
                     Our Technology Expertise
                 </div>
                 <div className={`text-sm text-center text-[19px] text-gray-500`}>
-                    We offer a comprehensive suite of outsourcing services designed to work together seamlessly. In today's fast-paced digital landscape, you need a strategic technology partner. Veycet offers an integrated suite of services designed to cover every stage of your digital journey. From the initial spark of an idea to leveraging advanced intelligence, we provide the end-to-end expertise to build, scale, and transform your business.
+                    We offer a comprehensive suite of outsourcing services designed to work together seamlessly. In today's fast-paced digital landscape, you need a strategic technology partner. Bycet offers an integrated suite of services designed to cover every stage of your digital journey. From the initial spark of an idea to leveraging advanced intelligence, we provide the end-to-end expertise to build, scale, and transform your business.
                 </div>
                 <div className={`max-w-[1200px] mx-auto w-full`}>
                     <div className={`grid grid-cols-1 lg:grid-cols-3 gap-9`}>

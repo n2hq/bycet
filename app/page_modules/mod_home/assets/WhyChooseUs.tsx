@@ -1,6 +1,8 @@
 import React from 'react'
 import { PreWhyJson, WhyChooseUsJson } from '../json/WhyChooseUsJson'
 import { index } from '@react-router/dev/routes'
+import { config } from '~/lib/lib'
+import { Link } from 'react-router'
 
 const WhyChooseUs = () => {
     const bgimg = `https://unbound.radiantthemes.com/wp-content/uploads/2018/04/Investment-image01.jpg?id=3052`
@@ -34,8 +36,8 @@ const WhyChooseUs = () => {
 
                     </div>
                     <div className={` py-16 max-w-[80%] md:max-w-[70%] mx-auto w-full flex text-black flex-col place-content-center gap-y-8`}>
-                        <div className={`text-4xl font-black tracking-tighter`}>
-                            Why Choose <span className="font-extralight">Veycet</span>?
+                        <div className={`text-4xl font-black tracking-tighter flex gap-x-3`}>
+                            Why Choose <span className="font-extralight tracking-normal"><i className='font-black'>B</i>ycet<b className='font-black'>?</b></span>
                         </div>
 
                         <div className={`text-lg font-bold`}>
@@ -63,7 +65,7 @@ const WhyChooseUs = () => {
                         </div>
 
                         <div className={`text-[17px] font-black`}>
-                            The <span className="font-normal underline">Veycet</span> Difference: How We Deliver Success
+                            The <span className="font-normal underline">{config.VITE_SITE}</span> Difference: How We Deliver Success
                         </div>
 
                         <ul className={`space-y-3`}>
@@ -85,9 +87,11 @@ const WhyChooseUs = () => {
                         </ul>
 
                         <div>
-                            <button className={`text-red-600 uppercase font-bold text-sm border-2 border-red-600 py-3 px-7 rounded-full hover:bg-red-700 hover:text-white cursor-pointer transition-all duration-500 ease-in-out`}>
-                                Hire us now
-                            </button>
+                            <Link to={'/contact'}>
+                                <button className={`text-red-600 uppercase font-bold text-sm border-2 border-red-600 py-3 px-7 rounded-full hover:bg-red-700 hover:text-white cursor-pointer transition-all duration-500 ease-in-out`}>
+                                    Hire us now
+                                </button>
+                            </Link>
                         </div>
                     </div>
                 </div>

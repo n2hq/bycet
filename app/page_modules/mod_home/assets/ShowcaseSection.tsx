@@ -4,6 +4,8 @@ import { Link } from 'react-router'
 import ContactUsButton from '~/components/body/ActionButton'
 import ActionButton from '~/components/body/ActionButton'
 import { preload } from 'react-dom'
+import { config } from '~/lib/lib'
+
 
 const ShowcaseSection = () => {
     const bgUrl = `/images/world-banner.jpg`
@@ -46,7 +48,7 @@ const ShowcaseSection = () => {
                         </div>
 
                         <div className={`md:w-[80%]`}>
-                            Voysce delivers end-to-end technology outsourcing—from custom software and AI to cloud infrastructure—helping innovative businesses scale, integrate, and dominate.
+                            {config.VITE_SITE} delivers end-to-end technology outsourcing—from custom software and AI to cloud infrastructure—helping innovative businesses scale, integrate, and dominate.
                         </div>
 
                         <ActionButton>

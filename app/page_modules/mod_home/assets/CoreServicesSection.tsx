@@ -21,7 +21,9 @@ const CoreServicesSection = () => {
                         {
                             CoreServicesJson.map((digital, index: number) => {
                                 return (
-                                    <div className={`flex flex-col place-items-center gap-y-3 max-w-[70%] mx-auto`}>
+                                    <div
+                                        key={index}
+                                        className={`flex flex-col place-items-center gap-y-3 max-w-[70%] mx-auto`}>
 
                                         <div className={`text-5xl text-cyan-500`}>
                                             {digital.icon}

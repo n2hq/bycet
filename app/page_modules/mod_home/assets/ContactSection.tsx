@@ -18,7 +18,9 @@ const ContactSection = () => {
                         cnt = cnt + 1
 
                         return (
-                            <div className={`flex flex-col place-items-center ${cnt % 2 === 0 && 'bg-blue-50'} pt-10 pb-15 `}>
+                            <div
+                                key={index}
+                                className={`flex flex-col place-items-center ${cnt % 2 === 0 && 'bg-blue-50'} pt-10 pb-15 `}>
                                 <div
                                     className={`opacity-50`}
                                 >

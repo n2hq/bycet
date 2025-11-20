@@ -21,7 +21,9 @@ const SummarySection = () => {
                 {
                     SummaryJson.map((summary, index: number) => {
                         return (
-                            <div className={`flex flex-col grid-cols-3 gap-y-5`}>
+                            <div
+                                key={index}
+                                className={`flex flex-col grid-cols-3 gap-y-5`}>
                                 <div className={`flex place-content-center text-5xl text-red-700`}>
                                     {summary.icon}
                                 </div>

@@ -7,8 +7,8 @@ const MainHeaderLogo = () => {
         <div className='text-[28px] font-sans font-black tracking-tighter flex place-items-center text-black'>
             <Link to={'/'} className=' flex'>
                 <span className='font-light flex'>
-                    <b className={`font-bold`}>V</b>
-                    <span className=' relative -left-0.5'>eycet</span>
+                    <b className={`font-bold`}>b</b>
+                    <span className=' relative -left-0.5'>ycet</span>
                 </span>
                 <span>.</span>
             </Link>

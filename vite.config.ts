@@ -15,9 +15,13 @@ export default defineConfig(({ isSsrBuild }) => ({
   base: '/',
   server: {
     host: true,
-    allowedHosts: ["test.veycet.com", "veycet.com"],
+    allowedHosts: [
+      "test.veycet.com",
+      "veycet.com",
+      "test.bycet.com",
+      "bycet.com"],
     hmr: {
-      port: 5702,
+     port: Number(process.env.VITE_HMR_PORT),
     },
   },
 }));

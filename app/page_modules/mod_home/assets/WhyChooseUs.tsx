@@ -51,7 +51,9 @@ const WhyChooseUs = () => {
                                 {
                                     PreWhyJson.map((choice, index: number) => {
                                         return (
-                                            <li className={`list-disc ml-7`}>
+                                            <li
+                                                key={index}
+                                                className={`list-disc ml-7`}>
                                                 {choice.title}
                                             </li>
                                         )

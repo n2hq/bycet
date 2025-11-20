@@ -3,6 +3,8 @@
 # Exit immediately if a command exits with a non-zero status
 set -e
 
+APP_NAME=bycet
+
 echo "🔧 Setting up Node.js 22..."
 # Load nvm and use Node 22
 export NVM_DIR="$HOME/.nvm"
@@ -10,7 +12,7 @@ export NVM_DIR="$HOME/.nvm"
 nvm use 22 2>/dev/null || nvm install 22 && nvm use 22
 
 echo "🔁 Setting up production remote..."
-git remote add origin https://github.com/n2hq/veycet.git || git remote set-url origin https://github.com/n2hq/veycet.git
+git remote add origin https://github.com/n2hq/$APP_NAME.git || git remote set-url origin https://github.com/n2hq/$APP_NAME.git
 
 echo "🌿 Renaming branch to main..."
 git branch -M main

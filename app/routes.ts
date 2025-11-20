@@ -5,7 +5,7 @@ export default [
     route("services", "routes/services.tsx"),
     route("consultation", "routes/consultation.tsx"),
     route("contact", "routes/contact.tsx"),
-    route("industries", "routes/industries.tsx"),
+    route("industry", "routes/industries.tsx"),
     route("about", "routes/about.tsx"),
     route("privacy", "routes/privacy.tsx"),
     route("terms", "routes/tos.tsx"),

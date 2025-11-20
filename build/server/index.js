@@ -3,7 +3,7 @@ import express from "express";
 const app = express();
 app.use(
   createRequestHandler({
-    build: () => import("./assets/server-build-Bd81-I27.js"),
+    build: () => import("./assets/server-build-BxarC1QK.js"),
     getLoadContext() {
       return {
         VALUE_FROM_EXPRESS: "Hello from Express"

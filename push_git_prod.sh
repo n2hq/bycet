@@ -11,7 +11,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 nvm use 22 2>/dev/null || nvm install 22 && nvm use 22
 
-echo "🔁 Setting up production remote..."
+echo "🔁 Adding remote origin..."
 git remote add origin https://github.com/n2hq/$APP_NAME.git || git remote set-url origin https://github.com/n2hq/$APP_NAME.git
 
 echo "🌿 Renaming branch to main..."
@@ -23,22 +23,20 @@ git checkout main || git checkout -b main
 echo "🔄 Pulling latest changes (if any)..."
 git pull origin main --allow-unrelated-histories --no-rebase || echo "No existing history to pull"
 
-echo "🧹 Deleting build folder..."
+echo "Deleting build folder..."
 rm -rf build/
 
-echo "📦 Installing dependencies..."
-npm install
 
-echo "🛠 Building PRODUCTION..."
+echo "🛠 Building PROD..."
 npm run build:prod
 
 echo "📦 Staging changes..."
 git add .
 
 echo "✅ Committing changes..."
-git commit -m "Prod: $(date '+%Y-%m-%d %H:%M:%S') - Production deployment" || echo "⚠️ No changes to commit."
+git commit -m "Production: update commit" || echo "⚠️ No changes to commit."
 
-echo "🚀 Pushing to production repository..."
+echo "🚀 Pushing to origin/main..."
 git push -u origin main
 
-echo "🎉 Production deployment completed!"
+echo "🎉 Done!"

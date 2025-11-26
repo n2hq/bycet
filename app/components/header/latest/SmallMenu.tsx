@@ -19,7 +19,7 @@ const menudata = [
     },
     {
         title: "Business Index",
-        url: "https://index.bycet.com/web/browse"
+        url: "https://index.bycet.com/web/search"
     },
 ]
 const SmallMenu = () => {
